@@ -11,7 +11,6 @@ const Base = ({ children }) => {
 
   useEffect(() => {
     const onboarding = localStorage.getItem('onboarding')
-    // console.log(onboarding)
     if (!onboarding) {
       setEnabledOnboarding(true)
     }
